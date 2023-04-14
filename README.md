@@ -1,4 +1,5 @@
 File: src/components/RandomNumberDenerator/index.js 
+
 import {Component} from 'react'
 
 import './index.css'
@@ -40,7 +41,9 @@ class RandomNumberGenerator extends Component {
 
 export default RandomNumberGenerator
 
+
 #index.css 
+
 .app-container {
   display: flex;
   justify-content: center;
@@ -129,6 +132,7 @@ export default RandomNumberGenerator
 
 
 File:src/components/App.js
+
 import RandomNumberGenerator from './components/RandomNumberGenerator'
 
 import './App.css'
